@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    height: 5vh;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3rem;
+}
+.container{
+    padding: 1rem 3rem;
+}
+.logo-container{
+    display: flex;
+}
+.brand-name{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 0rem 0.5rem;
+}
+.logo{
+    width: 35px;
+    height: 35px;
+}
+.navlinks-container{
+    background-color: blanchedalmond;
+    width: 50vw;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    background-color: aquamarine;
+    width: 70%;
+}
+header{
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 52, 52, 0.70);
+    padding: 0rem 3rem;
+    color: #fff;
+}
+.header-img{
+    width: 550px;
+    height: 400px;
+}
+.lhs{
+    width: 50%;
+}
+header h1{
+    font-size: 3.5rem;
+    padding: 1rem 0rem;
+    max-width: 500px;
+}
+header .lhs p{
+    font-size: 1.1rem;
+    padding: 0.5rem 0rem;
+    max-width: 500px;
+}
+header button {
+    width: 100px;
+    background-color: #fff;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bolder;
+    color:  rgba(255, 52, 52, 0.70);
+    border: none;
+    padding: 1rem 0rem;
+    margin: 1rem 0rem;
+}
+section{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+section h2{
+    font-size: 2.5rem;
+}
+section p{
+    max-width: 800px;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+    padding: 0rem 3rem;
+
+}
+footer .lhs img{
+    width: 600px;
+    height: 800px;
+    margin-top: 5rem;
+}
+footer .lhs{
+    display: flex;
+}
+.footer-rhs{
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  grid-gap: 2rem;
+}
+footer .footer-rhs img{
+    width: 80px;
+    height: 80px
+}
+footer .footer-box{
+    border: 1px solid rgba(255, 52, 52, 0.70);
+    border-radius: 10px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 2px 5px 2px rgba(239, 234, 234, 0.96);
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+.footer-box h3{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    padding: 1rem 0rem;
+}
+.second-set{
+    margin-top: 2rem;
+}
